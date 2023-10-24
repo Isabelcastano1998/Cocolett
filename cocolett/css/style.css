@@ -1,0 +1,168 @@
+header{
+    display: flex;
+    justify-content: center;
+}
+img {
+    height: 250px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    padding: 0;
+    
+      
+}
+
+ul li {
+    list-style: none;
+    margin-left: 10px;
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+    color: #010d00;
+    font-family: 'Quicksand', sans-serif;
+    padding: 4px 10px;
+    font-size: 30px;
+}
+a:hover{
+    color: #f2dff1;
+    background-color: #8c7b8b;
+    border-radius: 5px;    
+}
+footer .abajo {
+    text-align: center;
+}
+section .formulario{
+    margin: auto;   
+    text-align: center;
+}
+section .Ubicacion{
+    margin: auto;
+    text-align: center;
+}
+section .img{
+    width: 5px;
+}
+#uno{
+    width: 1000px;
+    height: 200px;
+    margin: auto;
+    background-color: #f2dff1;
+}
+#dos{
+    width: 100%;
+    height: 200px;
+    background-color: #f2dff1;
+}
+#tres{
+    width: 1000px;
+    height: 200px;
+    margin: auto;
+    background-color: #f2dff1;
+}
+
+.banner__container {
+    display: flex;
+    justify-content: center;
+    padding: 0 10%;
+    height: autos;
+}
+
+.banner__container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+body{
+    margin: 0;
+}
+
+nav {
+    padding: 0px 10%;
+}
+
+.Social_container {
+    display: flex;
+    align-items: center;
+    justify-content:right;
+    width: 50%;
+}
+
+.Social_container img{
+    width: 50PX;
+    height: 50px;
+}
+
+ 
+
+
+
+
+.sectionProducts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.s1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 85%; 
+    align-items: center;
+}
+
+.s1 div { 
+    margin-bottom: 30px;
+}
+
+.s1 div img {
+    width: 100%;
+    height: 100%;
+}
+
+.contentProduct2{
+    height: 1.5rem; 
+}
+
+.contentProduct2{
+    display: flex;
+    justify-content: space-between;
+    font-family:sans-serif; 
+}
+.contentProduct2 h3{
+    font-weight: 500;
+    
+}
+
+.circles{
+    height: 1rem;
+    display: flex; 
+}
+.circle1{
+    width: 25px;
+    height: 25px;
+    background-color: black;
+    border-radius: 100%;
+    border: 2px solid black;
+    margin-right: 1rem;
+}
+.circle2{
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 100%;
+    border: 2px solid black;
+} 
+
+.container{
+    width: 100%;
+}
+
+
